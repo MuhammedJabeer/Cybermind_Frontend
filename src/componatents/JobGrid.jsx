@@ -54,7 +54,7 @@ const matchSalary =
 
 
   return (
-    <div className="  px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  shadow-[0px 0px 14px 0px #D3D3D326] gap-[16px]">
+    <div className="  px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  shadow-[0px 0px 14px 0px #D3D3D326] gap-[90px]">
       {filteredJobs.map((job, index) => (
         <div
           key={index}
