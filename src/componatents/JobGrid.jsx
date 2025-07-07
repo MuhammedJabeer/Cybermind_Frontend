@@ -58,7 +58,7 @@ const matchSalary =
       {filteredJobs.map((job, index) => (
         <div
           key={index}
-          className="relative w-[316px]  h-[360px] rounded-[12px] shadow-[0px_0px_14px_0px_#D3D3D326] text-black bg-white px-5 pt-[150px] pb-6 "
+          className="relative w-[316px]  h-[360px] rounded-[12px] shadow-[0px_0px_14px_0px_#D3D3D326] text-black bg-white px-5 pt-[150px] pb-6 mx-auto"
         >
           {/* Badge */}
               <div className="absolute top-[30px] left-[222px] w-[75px] h-[33px] rounded-[10px] px-[10px] py-[7px] bg-[#B0D9FF] font-medium text-black text-[14px] font-medium leading-[100%] text-center  flex items-center justify-center">
