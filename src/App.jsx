@@ -5,14 +5,16 @@ import Searchs from './componatents/Search';
 import JobList from './componatents/JobGrid';
 import Form from './componatents/Form';
 import { useModal } from './context/Jobcontext'; // make sure path is correct
+import Header from './componatents/Header';
 
 function App() {
   const { isFormOpen, closeForm } = useModal();
 
   return (
     <>
-      <Nav />
-      <Searchs />
+      {/* <Nav />
+      <Searchs /> */}
+       <Header/>
       <JobList />
 
       {/* Modal for Job Form */}
