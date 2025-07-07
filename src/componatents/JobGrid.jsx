@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Clock, MapPin, IndianRupee } from 'lucide-react';
+import { User, MapPin, IndianRupee } from 'lucide-react';
 import axios from '../axios/axios';
 // import { formatDistanceToNowStrict } from 'date-fns';
 import { useModal } from '../context/Jobcontext';
