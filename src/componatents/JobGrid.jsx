@@ -54,11 +54,11 @@ const matchSalary =
 
 
   return (
-    <div className="  px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  shadow-[0px 0px 14px 0px #D3D3D326] gap-[90px]">
+    <div className="  px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  shadow-[0px 0px 14px 0px #D3D3D326] gap-[16px]">
       {filteredJobs.map((job, index) => (
         <div
           key={index}
-          className="relative w-[316px]  h-[360px] rounded-[12px] shadow-[0px_0px_14px_0px_#D3D3D326] text-black bg-white px-5 pt-[150px] pb-6 mx-auto"
+          className="relative w-[316px]  h-[360px] rounded-[12px] shadow-[0px_0px_14px_0px_#D3D3D326] text-black bg-white px-5 pt-[100px] pb-6 mx-auto"
         >
           {/* Badge */}
               <div className="absolute top-[30px] left-[222px] w-[75px] h-[33px] rounded-[10px] px-[10px] py-[7px] bg-[#B0D9FF] font-medium text-black text-[14px] font-medium leading-[100%] text-center  flex items-center justify-center">
@@ -69,7 +69,7 @@ const matchSalary =
           <img
             src={job.logo || "https://cdn.iconscout.com/icon/free/png-256/amazon-1869030-1583154.png"}
             alt={job.company_name || "Company Logo"}
-            className="absolute top-[19px] left-[16px] w-[83.46px] h-[82px] rounded-[13.18px] border border-white shadow-[0px_0px_10.25px_0px_#94949440] opacity-100"
+            className="absolute top-[15px] left-[16px] w-[83.46px] h-[82px] rounded-[13.18px] border border-white shadow-[0px_0px_10.25px_0px_#94949440] opacity-100"
           />
 
           {/* Title */}
@@ -89,7 +89,7 @@ const matchSalary =
           </ul>
 
           {/* Button */}
-          <button className="w-full h-[46px] bg-[#00AAFF] border border-[#00AAFF] text-white text-[14px] font-medium leading-[100%] text-center rounded-[10px] px-[10px] py-[12px] flex items-center justify-center gap-[10px] opacity-100 hover:brightness-110 transition mt-[25px]">
+          <button className="w-full h-[46px] bg-[#00AAFF] border border-[#00AAFF] text-white text-[14px] font-medium leading-[100%] text-center rounded-[10px] px-[10px] py-[12px] flex items-center justify-center gap-[10px] opacity-100 hover:brightness-110 transition ">
             Apply Now
           </button>
         </div>
