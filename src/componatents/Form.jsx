@@ -73,6 +73,7 @@ function Form() {
         <option value="Remote">Remote</option>
         <option value="Bangalore">Bangalore</option>
         <option value="Hyderabad">Hyderabad</option>
+         <option value="Chennai">Chennai</option>
       </select>
     </div>
 

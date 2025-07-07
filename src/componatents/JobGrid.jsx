@@ -77,7 +77,7 @@ const matchSalary =
 
           {/* Info */}
           <div className="flex items-center text-sm text-gray-600 mb-2 gap-2 flex-wrap">
-            <Clock className="w-4 h-4" /> {job.experience || '1–3 yr Exp'}
+               <User className="w-4 h-4 " />{job.experience || '1–3 yr Exp'}
             <MapPin className="w-4 h-4" /> {job.location || 'Onsite'}
             <IndianRupee className="w-4 h-4" /> {job.salary_range || '12LPA'}
           </div>

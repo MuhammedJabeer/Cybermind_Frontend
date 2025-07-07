@@ -33,8 +33,9 @@ function Searchs() {
     <select className="w-full px-4 py-2 border-none rounded-md focus:outline-none text-[#686868]" value={locationFilter} onChange={(e)=>setLocationFilter(e.target.value)}>
       <option  value="">Location</option>
       <option value="remote">Remote</option>
-      <option value="on-site">Chennai</option>
-      <option value="hybrid">Bangalore</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Bangalore">Bangalore</option>
+      <option value="Hyderabad">Hyderabad</option>
     </select>
   </div>
 
