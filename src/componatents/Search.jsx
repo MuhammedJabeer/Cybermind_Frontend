@@ -68,8 +68,8 @@ function Searchs() {
    <input
         type="range"
         min="0"
-        max="100000"
-        step="1000"
+        max="20"
+        step="1"
         value={salaryFilter}
         onChange={(e) => setSalaryFilter(Number(e.target.value))}
         className="w-full appearance-none h-[3px] bg-black rounded-full outline-none
