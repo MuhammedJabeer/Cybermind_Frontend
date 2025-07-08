@@ -58,10 +58,10 @@ const matchSalary =
       {filteredJobs.map((job, index) => (
         <div
           key={index}
-          className="relative w-[316px]  h-[360px] rounded-[12px] shadow-[0px_0px_14px_0px_#D3D3D326] text-black bg-white px-5 pt-[100px] pb-6 mx-auto"
+          className="relative   h-[360px] rounded-[12px] shadow-[0px_0px_14px_0px_#D3D3D326] text-black bg-white px-5 pt-[100px] pb-6 mx-auto"
         >
           {/* Badge */}
-              <div className="absolute top-[30px] left-[222px] w-[75px] h-[33px] rounded-[10px] px-[10px] py-[7px] bg-[#B0D9FF] font-medium text-black text-[14px] font-medium leading-[100%] text-center  flex items-center justify-center">
+              <div className="absolute top-[30px] left-[258px] w-[75px] h-[33px] rounded-[10px] px-[10px] py-[7px] bg-[#B0D9FF] font-medium text-black text-[14px] font-medium leading-[100%] text-center  flex items-center justify-center">
       {/* {job.created_at ? timeAgo(job.created_at) : 'Just now'} */}  24h Ago
     </div>
 
@@ -89,7 +89,7 @@ const matchSalary =
           </ul>
 
           {/* Button */}
-          <button className="w-full h-[46px] bg-[#00AAFF] border border-[#00AAFF] text-white text-[14px] font-medium leading-[100%] text-center rounded-[10px] px-[10px] py-[12px] flex items-center justify-center gap-[10px] opacity-100 hover:brightness-110 transition ">
+          <button className="w-[312px] absolute top-[296px] h-[46px] bg-[#00AAFF] border border-[#00AAFF] text-white text-[14px] font-medium leading-[100%] text-center rounded-[10px] px-[10px] py-[12px] flex items-center justify-center gap-[10px] opacity-100 hover:brightness-110 transition ">
             Apply Now
           </button>
         </div>
