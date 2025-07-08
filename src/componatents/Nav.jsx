@@ -24,7 +24,7 @@ function Nav() {
           </nav>
 
         
-          <button className="bg-[linear-gradient(180deg,_#A128FF_0%,_#6100AD_113.79%)] text-white px-4 py-2 rounded-[30px] w-[123px] h-[38px] opacity-100 px-[24px] py-[8px]" onClick={openForm}>
+          <button className="bg-[linear-gradient(180deg,_#A128FF_0%,_#6100AD_113.79%)] text-white flex item-center rounded-[30px] w-[130px] h-[38px] opacity-100 px-[24px] py-[8px]" onClick={openForm}>
             Create Job
           </button>
         </div>

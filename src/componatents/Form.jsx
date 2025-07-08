@@ -24,8 +24,8 @@ function Form() {
 
     try {
       const response = await axios.post('/create', jobData);
-      const newJob = response.data.data;
-      setJobs((prev) => [newJob, ...prev]);
+      const newJob =await axios.get('/getjob');
+      setJobs(newJob.data.data);
       console.log('Job created:', response.data.data);
       reset();
       closeForm()
@@ -99,7 +99,7 @@ function Form() {
         <label className="font-semibold text-[20px] leading-[100%] text-[#636363]">Min Salary</label>
         <input
           {...register('salary_min')}
-          type="text"
+          type="number"
           placeholder="₹0"
           className="w-full h-[58px] mt-1 border px-3 py-2 rounded-[10px]"
         />
@@ -108,7 +108,7 @@ function Form() {
         <label className="font-semibold text-[20px] leading-[100%] text-[#636363]">Max Salary</label>
         <input
           {...register('salary_max')}
-          type="text"
+          type="number"
           placeholder="₹12,00,000"
           className="w-full h-[58px] mt-1 border px-3 py-2 rounded-[10px]"
         />

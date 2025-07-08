@@ -72,24 +72,30 @@ function Searchs() {
         step="1"
         value={salaryFilter}
         onChange={(e) => setSalaryFilter(Number(e.target.value))}
-        className="w-full appearance-none h-[3px] bg-black rounded-full outline-none
-          [&::-webkit-slider-thumb]:appearance-none
-          [&::-webkit-slider-thumb]:w-4
-          [&::-webkit-slider-thumb]:h-4
-          [&::-webkit-slider-thumb]:bg-black
-          [&::-webkit-slider-thumb]:border-2
-          [&::-webkit-slider-thumb]:border-white
-          [&::-webkit-slider-thumb]:rounded-full
-          [&::-webkit-slider-thumb]:cursor-pointer
-
-          [&::-moz-range-thumb]:w-4
-          [&::-moz-range-thumb]:h-4
-          [&::-moz-range-thumb]:bg-black
-          [&::-moz-range-thumb]:border-2
-          [&::-moz-range-thumb]:border-white
-          [&::-moz-range-thumb]:rounded-full
-          [&::-moz-range-thumb]:cursor-pointer"
-      />
+        class="w-full max-w-xs appearance-none h-[4px] bg-black rounded-full outline-none
+           [&::-webkit-slider-thumb]:appearance-none
+           [&::-webkit-slider-thumb]:w-4
+           [&::-webkit-slider-thumb]:h-4
+           [&::-webkit-slider-thumb]:bg-[radial-gradient(circle,white_25%,black_30%)]
+           [&::-webkit-slider-thumb]:rounded-full
+           [&::-webkit-slider-thumb]:cursor-pointer
+           [&::-webkit-slider-thumb]:transition-all
+           [&::-webkit-slider-thumb]:duration-200
+           [&::-webkit-slider-thumb]:hover:scale-125
+           [&::-webkit-slider-thumb]:focus:scale-125
+           [&::-moz-range-thumb]:w-4
+           [&::-moz-range-thumb]:h-4
+           [&::-moz-range-thumb]:bg-[radial-gradient(circle,black_25%,white_30%)]
+           [&::-moz-range-thumb]:rounded-full
+           [&::-moz-range-thumb]:cursor-pointer
+           [&::-moz-range-thumb]:transition-all
+           [&::-moz-range-thumb]:duration-200
+           [&::-moz-range-thumb]:hover:scale-125
+           [&::-moz-range-thumb]:focus:scale-125
+           focus-visible:ring-2
+           focus-visible:ring-blue-500
+           focus-visible:ring-offset-2"
+  />
   </div>
 </div>
 
